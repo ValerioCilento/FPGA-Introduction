@@ -1,0 +1,23 @@
+C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/o7anKq9eSk22pyqvXopNMg_2c6f5eaace9840b28dc0c4bc5d54e766_AAC2M2H1/AAC2M2H1.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/o7anKq9eSk22pyqvXopNMg_2c6f5eaace9840b28dc0c4bc5d54e766_AAC2M2H1/AAC2M2H1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ALU
+-- Compiling architecture rtl of ALU
+
+} {} {}} C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/o7anKq9eSk22pyqvXopNMg_2c6f5eaace9840b28dc0c4bc5d54e766_AAC2M2H1/AAC2M2H1_tb.vhdp {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/o7anKq9eSk22pyqvXopNMg_2c6f5eaace9840b28dc0c4bc5d54e766_AAC2M2H1/AAC2M2H1_tb.vhdp
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package NUMERIC_BIT_UNSIGNED
+-- Loading package std_logic_textio
+-- Compiling entity AAC2M2H1_tb
+-- Compiling architecture behavioral of AAC2M2H1_tb
+
+} {} {}}

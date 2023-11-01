@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1/modelsim_ase/win32aloem
+Eaac2m2p1
+Z0 w1698362238
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/Valerio/Desktop/Coursera/VHDL/Week2/DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1
+Z7 8C:\Users\Valerio\Desktop\Coursera\VHDL\Week2\DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1\AAC2M2P1.vhd
+Z8 FC:\Users\Valerio\Desktop\Coursera\VHDL\Week2\DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1\AAC2M2P1.vhd
+l0
+L6
+VOMafIKXgX_4J5mFfbD1B`3
+!s100 8E_08H<MnfgTLR0gDTOZL1
+Z9 OV;C;10.5b;63
+33
+Z10 !s110 1698362244
+!i10b 1
+Z11 !s108 1698362244.000000
+Z12 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\Valerio\Desktop\Coursera\VHDL\Week2\DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1\AAC2M2P1.vhd|
+Z13 !s107 C:\Users\Valerio\Desktop\Coursera\VHDL\Week2\DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1\AAC2M2P1.vhd|
+!i113 1
+Z14 o-work work -2008 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Abehavioural
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 aac2m2p1 0 22 OMafIKXgX_4J5mFfbD1B`3
+l22
+L18
+VCGjLHMS7E27=A4iS=n0_B3
+!s100 GLKZbGgJAgnLF;6ldHjka2
+R9
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eaac2m2p1_tb
+Z16 w1573330674
+Z17 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z18 DPx4 ieee 20 numeric_bit_unsigned 0 22 Uo=_FXbo@j4IMIikZfQ=:3
+R3
+R4
+R5
+R6
+Z19 8C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1/AAC2M2P1_tb.vhdp
+Z20 FC:/Users/Valerio/Desktop/Coursera/VHDL/Week2/DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1/AAC2M2P1_tb.vhdp
+l0
+L53
+V]9k1d5L;N2mhb116]mo@:3
+!s100 gS`_:X:U1F[NhndMH]ZN@3
+R9
+32
+R10
+!i10b 1
+R11
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1/AAC2M2P1_tb.vhdp|
+Z22 !s107 C:/Users/Valerio/Desktop/Coursera/VHDL/Week2/DgA9N_TwQHeAPTf08HB3yw_c97820652f044c27bb38d68f5b8a1289_AAC2M2P1/AAC2M2P1_tb.vhdp|
+!i113 1
+Z23 o-work work -2002 -explicit
+R15
+Abehavioral
+R17
+R18
+R3
+R4
+R5
+Z24 DEx4 work 11 aac2m2p1_tb 0 22 ]9k1d5L;N2mhb116]mo@:3
+l146
+L61
+Z25 VBSF<2Vh;O>:i61<SLzjLH3
+Z26 !s100 FB3Yc4OHEBSk<[@JAXzM23
+R9
+32
+R10
+!i10b 1
+R11
+R21
+R22
+!i113 1
+R23
+R15

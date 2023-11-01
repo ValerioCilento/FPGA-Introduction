@@ -1,0 +1,58 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity FIFO8x9 is
+   port(
+      clk, rst:			in std_logic;
+      RdPtrClr, WrPtrClr:	in std_logic;    
+      RdInc, WrInc:		in std_logic;
+      rden, wren:               in std_logic;
+      DataIn:	 		in std_logic_vector(8 downto 0);
+      DataOut:			out std_logic_vector(8 downto 0)
+	);
+end entity FIFO8x9;
+
+architecture RTL of FIFO8x9 is
+	--signal declarations
+	type fifo_array is array(7 downto 0) of std_logic_vector(8 downto 0);  -- makes use of VHDL’s enumerated type
+	signal fifo:  fifo_array;
+	signal rdptr: unsigned(2 downto 0);
+	signal wrptr: unsigned(2 downto 0);
+	signal def_value : unsigned(2 downto 0) := (others => '0');
+	--signal en: std_logic_vector(7 downto 0);
+	signal dmuxout: std_logic_vector(8 downto 0);
+begin
+	inc_proc: process(clk) is
+	begin
+		if(rising_edge(clk)) then
+			if(WrInc = '1') then
+				wrptr <= wrptr + 1;
+			elsif(WrPtrClr = '1') then
+				wrptr <= def_value;
+			else
+				wrptr <= wrptr;
+			end if;
+			
+			if(RdInc = '1') then
+				rdptr <= rdptr + 1;
+			elsif(RdPtrClr = '1') then
+				rdptr <= def_value;
+			else
+				rdptr <= rdptr;
+			end if;
+		end if;
+	end process inc_proc;
+
+	wr_proc: process(clk) is 
+	begin 
+		if(rising_edge(clk) and wren = '1') then
+			fifo(to_integer(wrptr)) <= DataIn;
+		end if;
+	end process wr_proc;
+	
+	
+	dmuxout <= fifo(to_integer(rdptr));
+	DataOut <=  dmuxout when rden = '1' else (others => 'Z') when rden = '0';
+
+end RTL;
